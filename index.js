@@ -38,7 +38,8 @@ if ((jonSnowHealth + healthKit) >= 100) {
     jonSnowHealth = 100;
 } else {
     jonSnowHealth += healthKit;
+    
 }
 
-
+console.log(`jonSnowHealth is now ${jonSnowHealth}`);
 
